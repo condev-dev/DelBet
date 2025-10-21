@@ -1,0 +1,40 @@
+.numberinput {
+    text-align: center !important;
+    border-radius: 7px !important;
+    margin: 0 5px;
+    padding: 15px !important;
+}
+
+.numberinput::placeholder {
+    color: #cccccc !important;
+}
+
+
+a {
+    text-decoration: none !important;
+    transition: .3s;
+    color: #5670FC;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #fcb101;
+}
+
+.textdown {
+    font-size: 14px !important;
+}
+
+.conleftbox {
+    max-width: 600px !important;
+}
+
+@media (max-width: 768px) {
+    .concontactwallet {
+        padding: 30px 20px !important;
+    }
+}
+
+.textintro {
+    font-size: 16px !important;
+}

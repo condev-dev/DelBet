@@ -1,0 +1,112 @@
+.searchbox1 {
+    border-radius: 20px 0px 0px 20px;
+    height: 42px;
+    margin-left: 0px;
+    margin-right: -21px;
+    text-align: left;
+    direction: ltr;
+    padding-left: 20px;
+    width: 240px;
+    background: rgb(39 55 85 / 64%);
+    box-shadow: 0px;
+    border: 1px solid #2656944a;
+    box-shadow: 1px -1px 37px 1px #6650fa12;
+    outline: none;
+    border: none;
+}
+
+.conchat2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.171);
+    transition: .5;
+}
+
+.conchat2 img {
+    background: linear-gradient(180deg, #5473FD 0%, #6B45FA 100%);
+    border-radius: 200px;
+    width: 50spx;
+    height: 50px;
+}
+
+.btn-search i {
+    color: white;
+    font-size: 18px;
+}
+
+.conchat2 h5 {
+    font-weight: bolder;
+    font-size: 15px;
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.conchat2 h6 {
+    direction: ltr !important;
+    font-size: 14px;
+    width: 200px;
+    overflow: hidden;
+    text-align: left;
+    margin-right: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.contxtuser {
+    margin-left: 15px !important;
+}
+
+.conprofile i {
+    font-size: 13px;
+    /* color: rgba(97, 87, 251, 1); */
+}
+
+.bgconred img {
+    background: #a02a57 !important;
+}
+
+.bgconyellow img {
+    background: #fca001 !important;
+}
+
+.imgfilter {
+    width: 35px;
+    cursor: pointer;
+}
+
+.textcame small {
+    font-weight: bold;
+    color: #5473FD;
+}
+
+.badgetext {
+    background-color: #5473FD;
+    padding: 0px;
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badgetext small {
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-top: 3px;
+}
+
+.conheaderprofile i {
+    color: white;
+}
+
+
+@media (max-width: 902px) {
+    .searchbox1 {
+        width: 67vw !important;
+    }
+ 
+    }
+    

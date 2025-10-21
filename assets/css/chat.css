@@ -1,0 +1,144 @@
+.conimgchat img {
+    background: linear-gradient(180deg, #5473FD 0%, #6B45FA 100%);
+    border-radius: 100px;
+    width: 35px;
+}
+
+.contxtchate p {
+    font-size: 12px;
+}
+
+.contxtchate h6 {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.conlikechat i {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.285);
+    cursor: pointer;
+}
+
+.conlikechat i:hover {
+    color: #dd2e44;
+}
+
+.redheard {
+    color: #dd2e44 !important;
+}
+
+.contxtchate div {
+    background: rgba(39, 36, 62, 1);
+    padding: 15px;
+    border-radius: 0px 10px 10px 10px;
+    word-break: break-all;
+}
+
+.contxtchate2 div {
+    border-radius: 10px 0px 10px 10px;
+    background: rgba(122, 90, 248, 1);
+    word-break: break-all;
+}
+
+
+.conwritemessage {
+    position: fixed;
+    bottom: 0px !important;
+    left: 0px;
+    right: auto;
+    width: 370px !important;
+    margin: 0px;
+    padding: 14px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    background: #252237;
+    transition: .3s;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.conwritemessageclose {
+
+    position: fixed;
+    bottom: 0px !important;
+    left: -370px;
+    right: auto;
+    width: 370px !important;
+    margin: 0px;
+    padding: 14px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    background: #252237;
+    transition: .3s;
+    border-radius: 20px;
+    opacity: 0;
+}
+
+@media (max-width: 902px) {
+
+    .conwritemessage {
+        width: 100% !important;
+        position: fixed;
+        bottom: 0px !important;
+        left: 0px;
+        right: 0px;
+        padding: 14px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        background: #252237;
+        transition: .3s;
+    }
+    
+}
+
+
+.serachboxchat {
+    background: rgba(39, 36, 62, 1);
+    border-radius: 10px;
+    width: 73vw !important;
+    height: 50px;
+}
+
+.serachboxchat img {
+    width: 20px;
+    height: 20px;
+}
+
+.serachboxchat input {
+    background: rgba(39, 36, 62, 1);
+    border: none;
+    outline: none;
+    box-shadow: 0;
+    direction: ltr !important;
+    text-align: left;
+    padding-top: 4px !important;
+}
+
+.rowchat {
+    margin-top: -10px;
+}
+
+.filecircle i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 500px;
+    padding: 8px;
+    font-size: 20px;
+    background: linear-gradient(#254467, #aa497266);
+    cursor: pointer;
+}
+
+.contentfile small {
+    margin: 0px !important;
+    padding: 0px !important;
+    vertical-align: text-top;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.766);
+}
+
+.contxtchate h6,
+.conimgchat img {
+    cursor: pointer;
+}

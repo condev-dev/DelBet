@@ -1,0 +1,104 @@
+.singintext
+{
+    outline: none !important;
+}
+
+.numberinput
+{
+    border-radius: 7px 0px 0px 7px !important;
+}
+
+.arrowdowselectboxcon {
+    left: 16px !important;
+    top: 13px !important;
+    right: auto !important;
+}
+
+.myitemselectbox div
+{
+    text-align: right !important;
+}
+
+.number
+{
+    background: linear-gradient(180deg, #5473FD 0%, #6B45FA 100%);
+    border-left: none !important;
+    border-radius: 0px 7px 7px 0px !important;
+}
+
+.btnsingin
+{
+    background-color: #5367EB;
+}
+
+.inputsingin{
+    padding: 10px !important;
+}
+
+.inputsingin:focus{
+    border-color: #5367EB !important;
+    background: #211c35;
+}
+
+
+
+main{
+    position: relative !important;
+}
+
+main::before
+{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url(../Image/bg-sing_in.svg) !important;
+    position: absolute;
+    inset: 0px;
+    background-size: cover !important;
+    background-position: center !important;
+    z-index: -1;
+    opacity: .05;
+}
+.concontactwallet{
+    position: relative !important;
+}
+
+.concontactwallet::before
+{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url(../Image/bg-sing_in.svg) !important;
+    position: absolute;
+    inset: 0px;
+    background-size: contain !important;
+    background-position: center !important;
+    z-index: -1;
+    opacity: .2;
+}
+
+
+.concontactwallet {
+    background-image: linear-gradient(to left bottom, #645b9e7a, #564f8881, #4944737e, #3d395f7e, #312e4b7a, #2d2b4580, #29274077, #25243a83, #2727407c, #292b4779, #2b2e4d85, #2d325473);
+    border-radius: 15px;
+    box-shadow: inset .5px .5px 2px 0px #ffffff69;
+    padding: 40px 30px !important;
+}
+
+.myitemselectbox {
+    top: 40px !important;
+}
+
+.conmenuwallet {
+    height: 120px;
+}
+
+.btnsingin
+{
+    padding: 13px !important;
+    transition: .5s;
+}
+
+.btnsingin:hover{
+    opacity: .8;
+}

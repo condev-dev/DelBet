@@ -1,0 +1,313 @@
+.Container-Support {
+    border-radius: 15.84px;
+    background: rgb(98, 90, 155);
+    background: linear-gradient(225deg, rgba(98, 90, 155, 1) 2%, rgba(67, 61, 103, 1) 11%, rgba(48, 43, 71, 1) 25%, rgba(35, 32, 51, 1) 79%, rgba(40, 41, 67, 0.9220938375350141) 93%, rgba(46, 51, 86, 1) 98%);
+    box-shadow: inset .5px .5px 2px 0px #ffffff69;
+}
+
+.coloryellow {
+    color: #fcb101;
+}
+
+.New_Ticket {
+    padding: 10px 15px;
+    border-radius: 9px;
+    background: #566EFC;
+    background: linear-gradient(180deg, #566EFC, #6A47FA);
+    cursor: pointer;
+}
+
+.backticket {
+    height: 50px;
+    width: 15px;
+    border-radius: 0 12px 12px 0;
+    background: linear-gradient(180deg, #ECB72A 0%, #E99202 100%);
+}
+
+.ContainerTicket {
+    background-color: rgba(255, 255, 255, 0.064);
+    padding: 20px;
+    border-radius: 9px;
+}
+
+.ContainerTicket small {
+    color: #E8E8E8 !important;
+}
+
+
+.BtnTicket {
+    padding: 6px 12px;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.064);
+    box-shadow: inset -1px 1px 0px 0px #cbcad170;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.BtnTicket p {
+    font-size: 14px;
+}
+
+
+.login-input textarea {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin: 0px !important;
+    border-radius: 12px !important;
+    height: 90px;
+    background: hsl(219, 34%, 23%, .48);
+    padding: 10px !important;
+}
+
+.textticket p {
+    max-width: 80%;
+    word-break: break-all;
+}
+
+
+.HeaderPop {
+    background-image: linear-gradient(to left, #292e54, #282b4d, #272846, #262640, #242339, #242339, #24233a, #24233a, #262641, #272948, #282c4f, #292f56);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.ConainerPop {
+    position: relative;
+    height: 100%;
+    z-index: 20000002;
+}
+
+.ConainerPop::before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../Image/bg-login.png);
+}
+
+.HeaderPop i {
+    background: linear-gradient(180deg, #5670FC 0%, #6A48F9 100%);
+    padding: 5px 7px;
+    border-radius: 100px;
+    box-shadow: 3px 4px 10px #6750fa70;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.ConContainerAddNewTicket input,
+.ConContainerAddNewTicket textarea {
+    padding: 10px !important;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background-color: #ffffff0e;
+}
+
+.ConContainerAddNewTicket textarea {
+    min-height: 200px;
+}
+
+.btnaddticket {
+    background: linear-gradient(180deg, #5473FD 0%, #6B45FA 100%);
+    border-radius: 12px;
+    width: 135px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    border: 0px;
+    outline: 0ox;
+    box-shadow: none;
+}
+
+.date-text {
+    font-size: 12px;
+}
+
+.ticket {
+    cursor: pointer;
+}
+
+.mainConLeft {
+    max-width: 1200px !important;
+}
+
+.CONCHATLEFT11
+{
+    max-height: 400px !important;
+    overflow: scroll;
+}
+
+.fg-emoji-container{
+    position: absolute !important;
+    left:40% !important;
+    bottom: 40% !important;
+}
+.fg-emoji-nav
+{
+    position: absolute !important;
+    bottom: 500px !important;
+    left: 278px !important;
+}
+
+
+.fg-emoji-container11 {
+    position: absolute;
+    bottom: -100% !important;
+    left: 0px !important;
+    right: auto !important;
+    top: auto !important;
+    width: 100% !important;
+    height: 25% !important;
+    margin: 0 !important;
+    background: #252237 !important;
+    z-index: 5555555 !important;
+    overflow: hidden !important;
+    box-shadow: none !important;
+    transition: .3s !important;
+    opacity: 0;
+    z-index: 150 !important;
+}
+
+.fg-emoji-containeroepn1 {
+    bottom: 0px !important;
+    left: 0px !important;
+    right: auto !important;
+    top: auto !important;
+    margin: 0px !important;
+    transition: .3s !important;
+    width: 100% !important;
+    opacity: 1;
+}
+
+
+.conwritemessageOpenForEmojy2{
+    position: absolute;
+    bottom: 0px ;
+    left: 0px;
+    right: 0px;
+    transition: .2s;
+    background: transparent;
+    padding: 25px 45px;
+    padding-left: 60px;
+    border-radius:10px 10px 0px  0px !important;
+}
+
+
+
+.conwritemessageOpenForEmojy1{
+    bottom: 25% !important;
+    background-color: #252237;
+}
+
+.bttndrop
+{
+    color: #edbd31;
+    cursor: pointer;
+}
+
+.dropicon
+{
+    position: absolute;
+    left: 15px;
+    bottom: 12px !important;
+    color: #edbd31;
+}
+
+.mydropdown
+{
+    height: auto !important;
+    width: 100%;
+    background-color: #242438da;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -180px;
+    padding: 5px 10px;
+    padding-bottom: 0px;
+    border-radius: 10px !important;
+    overflow: hidden;
+    transition: .3s;
+    opacity: 1;
+}
+
+.mydropdownclose
+{
+    width: 100%;
+    height: 0px !important;
+    padding: 0px !important;
+    background-color: #242438;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -140px;
+    border-radius: 10px !important;
+    overflow: hidden;
+    transition: .3s;
+    transition: .1s opacity;
+    opacity: 0;
+}
+
+.mydropdown p , .mydropdownclose p
+{
+    cursor: pointer;
+    margin: 10px !important;
+    width: 100% !important;
+    margin-right: 20px !important;
+    padding-bottom: 5px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.068);
+}
+
+
+@media (min-width: 992px) {
+    .serachboxchatleft1
+    {
+        height: 55px !important;
+    }
+    .header-menu1 {
+        width: 48px !important;
+        height: 48px !important;
+    }
+    
+}
+@media (max-width: 600px) {
+    .conwritemessageOpenForEmojy2{
+        padding: 25px 30px !important;
+    }
+    .CONCHATLEFT11
+{
+    max-height: 500px !important;
+    overflow: scroll;
+}
+
+    .textticket p {
+        max-width: 100%;
+        word-break: break-all;
+    }
+
+    .New_Ticket {
+        padding: 8px 9px;
+    }
+
+    .New_Ticket p {
+        font-size: 13px;
+    }
+
+    .ContainerTicket p {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .BtnTicket p {
+        font-size: 11px !important;
+    }
+
+    .ContainerTicket small {
+        font-size: 10px;
+    }
+}
+
+

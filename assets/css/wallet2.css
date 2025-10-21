@@ -1,0 +1,90 @@
+.conmenuwallet {
+    height: auto;
+}
+
+.concash {
+    align-items: start;
+}
+
+.walletprofile {
+    width: 751.45px;
+    border-radius: 16px;
+    background-image: linear-gradient(to left bottom, #6c2b44, #5f2945, #512844, #442641, #37243d, #32243d, #2d233c, #28233b, #292540, #292744, #292949, #292b4e);
+    box-shadow: inset .5px .5px 2px 0px #cbcad14b;
+    border: .1px solid #cbcad14b;
+    border-bottom: none;
+}
+
+.walletprofile2 {
+    background-image: linear-gradient(to left bottom, #1b1f2a, #1c1f2c, #1d1f2e, #1f1f30, #211f32, #232035, #252239, #27233c, #292642, #2b2a48, #2c2d4e, #2d3154);
+}
+
+.walletprofile .conprofilectx {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.154);
+}
+
+.btnprofile {
+    background: linear-gradient(180deg, #5473FD 0%, #6B45FA 100%);
+    padding: 7px 20px;
+    border-radius: 200px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 3px 4px 10px #6750fa70;
+}
+
+.btnprofile p {
+    border: none;
+}
+
+.imgprofile {
+    width: 65.26px;
+    height: 64.55px;
+    border-radius: 300px;
+    border: 3px solid #5473FD;
+    box-shadow: 3px 4px 10px #6750fa70;
+    background: url(../Image/);
+}
+
+.txtprofile {
+    margin-left: 20px;
+}
+
+.txtprofile h6 {
+    margin-top: 5px;
+    color: rgba(221, 221, 221, 1);
+    font-size: 15px;
+}
+
+.txtprofile small {
+    margin: 0px 3px;
+    color: rgba(221, 221, 221, 1);
+}
+
+.mybadge {
+    width: 17px;
+    height: 17px;
+    padding: 5px;
+    background-color: rgba(103, 112, 255, 1);
+    border-radius: 200px;
+    margin-right: 5px;
+}
+
+.mybadge p {
+    font-size: 13px;
+    margin-top: 3px !important;
+    color: black;
+}
+
+.modalchangetxt
+{
+    width: 80vw !important;
+    margin: auto;
+    border-radius: 15px !important;
+    padding: 10px !important;
+}
+
+@media (max-width: 1000px) {
+    .walletprofile {
+        width: 100%;
+    }
+}

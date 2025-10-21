@@ -1,0 +1,309 @@
+.main {
+    background: rgb(45, 35, 72);
+    border-radius: 44px;
+}
+
+.conlogin {
+    background: url(../Image/bg-login.png);
+    border: 1px solid #ffffff6a;
+    border-bottom: none;
+    border-radius: 44px;
+    box-shadow: inset .1px .5px 2px 0px #ffffffa9;
+    overflow: hidden;
+    height: 700px;
+    transition: .1s;
+}
+
+.conlogin>* {
+    transition: .1s;
+}
+
+.login-text {
+    width: 55%;
+    background: hsl(256, 35%, 21%, .48);
+    border-radius: 44px;
+    height: auto;
+    padding: 50px 70px;
+    position: relative;
+    height: 100%;
+}
+
+.login-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(to left bottom, #7d6fcab8, #7d6fca00, transparent, transparent, transparent);
+}
+
+.login-img {
+    width: 45%;
+    height: 100% !important;
+    position: relative;
+    background-image: linear-gradient(to right bottom, #7d6fca57, #7d6fca08, transparent, transparent, transparent);
+}
+
+.login-img img {
+    max-width: 100%;
+}
+
+.login-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background: url(../Image/bg-login2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    transform: rotate(30deg);
+}
+
+
+.login-btn {
+    background: rgba(50, 46, 85, 1);
+    border-radius: 12px;
+}
+
+.login-btn a {
+    width: 50%;
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.loginbtnselected {
+    background: rgba(237, 189, 49, 1) !important;
+    color: black !important;
+    border-radius: 12px;
+}
+
+.login-intro h1 {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.login-intro p {
+    font-size: 18px;
+}
+
+.login-input {
+    margin-top: 20px;
+}
+
+.login-input input {
+    width: 100%;
+    border-radius: 12px;
+    background: hsl(219, 34%, 23%, .48);
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.txt-input-login {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.login-input p:first-child {
+    font-size: 19px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: lighter !important;
+}
+
+.txt-input-login p:nth-child(2) {
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: lighter !important;
+}
+
+.btn-login-add {
+    background: linear-gradient(180deg, #5473FD 0%, #6B45FA 100%);
+    border-radius: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 0px;
+    outline: 0ox;
+    box-shadow: none;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 35px;
+    letter-spacing: 1px;
+}
+
+.imgonimg {
+    position: absolute;
+}
+
+.imgonimg-1 {
+
+    left: 10%;
+    top: 35%;
+}
+
+.imgonimg-2 {
+
+    left: 16%;
+    top: 47%;
+}
+
+.imgonimg-3 {
+
+    left: 47%;
+    top: 44%;
+    z-index: -1;
+}
+
+.imgonimg-4 {
+
+    left: 66%;
+    top: 56%;
+}
+
+.imgonimg-5 {
+
+    left: 66%;
+    top: 30%;
+}
+
+.imgonimg-6 {
+
+    left: 48%;
+    top: 13%;
+    z-index: -1;
+}
+
+.onepass a,
+.forgetpass a {
+    text-decoration: none;
+    color: rgba(165, 165, 165, 1);
+    font-weight: bold;
+}
+
+
+.conlogin {
+    height: 550px;
+}
+
+.login-btn a {
+    font-size: 15px;
+}
+
+.login-intro h1 {
+    font-size: 30px;
+}
+
+.login-input {
+    margin-top: 10px;
+}
+
+.login-input input {
+    padding: 5px;
+}
+
+
+.login-input p:first-child {
+    font-size: 14px;
+}
+
+.txt-input-login p:nth-child(2) {
+    font-size: 14px;
+}
+
+.btn-login-add {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.onepass a,
+.forgetpass a {
+    font-size: 13px;
+}
+
+.imgonimg {
+    width: 80px;
+}
+
+.closemedallogin {
+    position: absolute;
+    right: 30px;
+    top: 24px;
+    z-index: 500;
+    font-size: 17px;
+}
+
+
+@media (max-width: 995px) {
+
+    .main {
+        width: 100% !important;
+        position: fixed;
+        top: 0px;
+        border-radius: 0px;
+    }
+
+    .login-img {
+        display: none !important;
+    }
+
+    .login-text {
+        width: 100% !important;
+        height: 100% !important;
+        padding: 30px !important;
+        border-radius: 0px;
+    }
+
+    .conlogin {
+        margin: 0px !important;
+        height: 100%;
+        border: none;
+        box-shadow: none;
+        border-radius: 0px;
+    }
+
+    .closemedallogin {
+        right: 48%;
+        top: 92%;
+        z-index: 500;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 355px) {
+    .login-btn a {
+        font-size: 13px;
+    }
+
+    .conpasschange
+    {
+        flex-direction: column;
+    }
+    .conpasschange div
+    {
+        margin: 5px 0;
+    }
+}

@@ -1,0 +1,207 @@
+.conprofile {
+    background-color: rgba(13, 22, 39, 1);
+    margin: 0;
+    box-sizing: border-box;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 33;
+}
+
+.conheaderprofile {
+    background-image: linear-gradient(to left, #292e54, #282b4d, #272846, #262640, #242339, #242339, #24233a, #24233a, #262641, #272948, #282c4f, #292f56);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.conheaderprofile i {
+    background: linear-gradient(180deg, #5670FC 0%, #6A48F9 100%);
+    padding: 5px 7px;
+    border-radius: 100px;
+    box-shadow: 3px 4px 10px #6750fa70;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.circleheaderprofile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(62, 66, 98, 1);
+    border: 1px solid rgba(124, 124, 124, 1);
+    border-radius: 200px;
+    padding: 0px !important;
+    padding: 4px !important;
+    width: 27px !important;
+    height: 27px !important;
+}
+
+.circleheaderprofile img {
+    width: 80% !important;
+    height: 80% !important;
+}
+
+.btntitle {
+    width: 78px !important;
+    height: 35px;
+    box-shadow: inset 0px 1px 0px 0px #cbcad18a;
+}
+
+.txtbtntitle {
+    border-left: 1px solid white;
+    padding-left: 6px;
+}
+
+.conprofilecontact img {
+    width: 85px;
+    height: 85px;
+    border-radius: 200px;
+    border: 3px solid #5473FD;
+    box-shadow: 6px 7px 33px -9px #5473FD;
+    background: linear-gradient(180deg, #FCBF02 15.44%, #FC8E00 100%);
+}
+
+.conprofilecontact h6 {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.connameuser h6 {
+    margin: 0;
+    padding: 0;
+    margin-top: -10px;
+    font-size: 13px;
+    background: linear-gradient(180deg, #5473FD 0%, #6B45FA 100%);
+    padding: 4px 6px;
+    border-radius: 7px;
+    box-shadow: 6px 7px 33px -9px #5473FD;
+}
+
+.headermedal {
+    background-image: linear-gradient(to right, #18263f, #202943, #282c47, #2f304b, #37334f, #3a3754, #3e3b58, #413f5d, #404564, #3f4c6a, #3e5270, #3d5975);
+    border-radius: 10px;
+}
+
+.headermedal1 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.291);
+}
+
+.btnshowcontactprofile {
+    background: linear-gradient(180deg, #5473FD 0%, #6B45FA 100%);
+    padding: 5px 12px;
+    border-radius: 17px;
+    cursor: pointer;
+    box-shadow: 2px 2px 9px 0px #6B45FA;
+}
+
+.btnshowcontactprofile h6 {
+    font-size: 12px;
+}
+
+.conmedalitem {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.conmedalitem2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 5px;
+}
+
+.conmedalitem2 div,
+.conmedalitem2w100 div {
+    background-color: rgba(255, 255, 255, 0.112);
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #555972;
+}
+
+.conmedalitem2 h6,
+.conmedalitem2w100 h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.conmedalitem2 h6:nth-child(1),
+.conmedalitem2w100 h6:nth-child(1) {
+    color: #FCBF02;
+}
+
+.conmedalitem2 h6:nth-child(2),
+.conmedalitem2w100 h6:nth-child(2) {
+    margin-top: 10px;
+}
+
+.conmedalitem img {
+    width: 30px;
+    margin: 10px 0;
+}
+
+.boxshowcontactprofile {
+    cursor: pointer;
+}
+
+.boxshowcontactprofile img {
+    width: 50px;
+    border-radius: 7px;
+    box-shadow: 6px 7px 33px -9px #5473FD;
+
+}
+
+.boxshowcontactprofile h6 {
+    margin: 0;
+    margin-left: 22px;
+    font-weight: 900;
+}
+
+
+.btntitleprofile {
+    width: 81px !important;
+    height: 38px;
+    border-radius: 200px;
+    background-color: #252d3d;
+    font-size: 14px;
+    padding-top: 10px !important;
+    padding-right: 13px !important;
+    cursor: pointer;
+    box-shadow: inset -1px 1px 0px 0px #cbcad170;
+}
+
+.btntitleprofileChat {
+    width: 40px !important;
+    height: 40px;
+    border-radius: 200px;
+    background-color: #252d3d;
+    cursor: pointer;
+    box-shadow: inset -1px 1px 0px 0px #cbcad170;
+}
+
+.btntitleprofileChat img {
+    width: 80%;
+    height: 80%;
+}
+
+
+@media (min-width: 902px) {
+    .conheaderprofile{
+        height: 77px;
+    }
+    .conheaderprofile p{
+    padding-top: 6px !important;        
+    }
+    
+}
+
+@media (max-width: 1290px) {
+.conboxdown
+{
+    margin: 0px !important;
+}
+    
+}

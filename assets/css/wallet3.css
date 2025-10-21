@@ -1,0 +1,294 @@
+.conbuttomwallet {
+    background: linear-gradient(180deg, #202641 0%, #1C1A28 100%);
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: inset .5px .5px 2px 0px #ffffff69;
+}
+
+.conbuttomwallet h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.con-h6 {
+    padding: 20px;
+}
+
+.selectedbuttonwallet {
+    background: rgba(80, 76, 127, 0.242);
+    border-radius: 15px;
+}
+
+.concontactwallet {
+    background-image: linear-gradient(to left bottom, #645b9e, #564f88, #494473, #3d395f, #312e4b, #2d2b45, #292740, #25243a, #272740, #292b47, #2b2e4d, #2d3254);
+    border-radius: 15px;
+    box-shadow: inset .5px .5px 2px 0px #ffffff69;
+}
+
+.btntitle {
+    width: auto !important;
+    height: auto;
+    padding: 0px !important;
+    padding: 7px 13px !important;
+    margin: 0px 7px;
+}
+
+.btntitlemore
+{
+    width: 100% !important;
+    margin: 5px 0 ;
+    border-radius: 5px !important;
+    padding: 10px  !important;
+    box-shadow: none;
+}
+
+
+.btntitle img {
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.btntitle small {
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+
+
+.threeimgon {
+    min-width: 29px;
+    margin-right: 2px;
+}
+
+.threeimgon img {
+    margin-left: -21px;
+}
+
+select {
+    appearance: none;
+    border: none;
+    box-shadow: 0;
+    outline: 0px;
+}
+
+.myselectbox {
+    border-radius: 7px;
+    background: #211c358a;
+    font-size: 13px;
+    border: 1px solid rgba(64, 61, 96, 1);
+    cursor: pointer;
+    padding: 5px 15px;
+}
+
+.myitemselectbox
+{
+    background: linear-gradient(to left bottom, #1b1f2a, #1c1f2c, #1d1f2e, #1f1f30, #211f32, #232035, #252239, #27233c, #292642, #2b2a48, #2c2d4e, #2d3154);
+    border-radius: 7px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+    font-size: 12px;
+    overflow: scroll;
+    transition: .2s;
+    z-index: 100;
+    padding: 2px 8px !important;
+    max-height: 150px;
+}
+
+
+
+
+.myitemselectbox div{
+    padding: 7px;
+    padding-top:9px;
+    padding-left: 7px;
+    background-color: rgba(255, 255, 255, 0.030);
+    margin: 10px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: left;
+    direction: ltr;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: .2s;
+}
+
+
+
+.myitemselectbox option:hover{
+    background-color: rgba(255, 255, 255, 0.060);
+}
+
+
+.arrowdowselectboxcon {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    font-size: 14px;
+    width: 17px;
+    height: 16px;
+    background: linear-gradient(180deg, #5367EB 0%, #674CF9 100%);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.showcontactwarning {
+    background: rgba(214, 130, 35, 0.288);
+    border: 1px solid rgba(255, 196, 140, 0.248);
+    border-radius: 15px;
+}
+
+.addreswallet .h6con {
+    background: #211c358a;
+    border: 1px solid rgba(64, 61, 96, 1);
+    border-radius: 7px;
+    padding: 6px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.conbtnaddres {
+    background-color: #1d3434;
+    border-radius: 7px;
+    border: 1px solid rgba(64, 61, 96, 1);
+    cursor: pointer;
+    padding: 3px 8px;
+}
+
+.green {
+    color: rgba(90, 255, 179, 1);
+}
+
+.yellow {
+    color: rgba(252, 171, 29, 1);
+}
+
+.contxtselect {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.conleftbox {
+    max-width: 100%;
+}
+
+.conmenuwallet {
+    max-width: 100%;
+}
+
+.shadowtxt {
+    position: absolute;
+    right: 41%;
+    top: 130%;
+    box-shadow: 0px -16px 10px 5px rgba(226, 19, 205, 0.679) !important;
+    width: 17%;
+}
+
+.shadowtxt2 {
+    position: absolute;
+    right: 35.5%;
+    top: 110%;
+    width: 32%;
+    box-shadow: 8px -16px 20px 0px rgba(226, 19, 205, 0.29) !important;
+    ;
+}
+
+.modalchangetxt
+{
+    width: 80vw !important;
+    margin: auto;
+    border-radius: 15px !important;
+    padding: 10px !important;
+}
+
+
+
+.boxshowmony , .boxshowmony small
+{
+    font-size: 11px !important;
+}
+
+.boxshowmony i 
+{
+    padding-bottom: 3px !important;
+}
+
+.boxshowmonyred i , .boxshowmonyred small
+{
+    color: #ff4b5a !important;
+}
+.boxshowmonygreen i , .boxshowmonygreen small
+{
+    color: #00bb27 !important;
+}
+
+.imgbox {
+    margin-bottom: 2.5px !important;
+}
+
+@media (max-width: 900px) {
+
+    .addreswallet .h6con {
+
+        font-size: 12px;
+    }
+
+    .showcontactwarning p {
+        font-size: 12px;
+    }
+
+    .contxtselect {
+        overflow: scroll;
+    }
+
+    .myselectbox {
+        padding-right: 63%;
+    }
+
+    .conselectboxtxt {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1288px) {
+
+    .conleftbox {
+        margin-right: 20px;
+    }
+
+}
+
+@media (max-width: 1288px) {
+
+    .concontextleft {
+        width: 71vw !important;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .conbuttomwallet h6{
+        font-size: 14px !important;
+    }
+
+    .conselectboxtxt h6{
+        font-size: 13px !important;
+    }
+
+    .concontextleft {
+        width: 100% !important;
+    }
+
+}
+

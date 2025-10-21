@@ -1,0 +1,328 @@
+.wallet-menu {
+    background: linear-gradient(to top, #242538, #242438, #242438, #252337, #252237, #242237, #242138, #232138, #202239, #1d2239, #1a233a, #16233a) !important;
+    border-radius: 0px;
+    z-index: 198;
+    overflow: auto;
+    margin-top: 20px;
+    margin-right: 30px;
+    transition: .2s;
+    padding: 20px 15px !important;
+    border-radius: 31px !important;
+}
+
+.wallet-menu>* {
+    transition: .2s;
+}
+
+.rowmenuwallet {
+    height: 61px;
+    margin: 7px 0px;
+    transition: .3s;
+    box-shadow: none;
+    border: none;
+}
+
+
+.rowmenuwallet img {
+    width: 20px;
+    height: auto;
+    padding: 0px 0px;
+    margin: 0px 10px;
+}
+
+.rowmenuwallet h6 {
+    font-size: 0.875rem;
+}
+
+.rowmenuwalletfirst {
+    background-image: linear-gradient(to right, #242538, #302b43, #3e304e, #4e3457, #5f385e, #613b63, #643d68, #66406d, #584271, #484472, #384672, #26476f);
+    border: .5px solid rgba(255, 255, 255, 0.249);
+    border-bottom: none;
+}
+
+.rowmenuwalletfirst h6 {
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.rowmenuwalletfirst i {
+    font-size: 12px;
+}
+
+.rowmenuwalletfirst i:nth-child(1) {
+    margin-left: 10px;
+}
+
+.rowmenuwallet h6 {
+    margin: 0px;
+    margin-right: 0px;
+    padding-right: 10px;
+}
+
+.confirstcolummenu {
+    margin-right: 0px;
+    border-right: 1px solid white;
+}
+
+.rowmenuwalletfirst h6:nth-child(1) {
+    margin-right: 0px;
+}
+
+.up-show {
+    margin-right: 3px;
+}
+
+.circleuser {
+    width: 43px;
+    height: 43px;
+    margin-right: 0px;
+}
+
+.rowmenuwalletselected {
+    height: auto;
+    padding: 10px 0;
+}
+
+.rowmenuwalletselected {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.itemrowmenuwalletselected {
+    padding: 5px 0px;
+    margin: 1px;
+    border-radius: 7px;
+    transition: .5s;
+}
+
+.itemrowmenuwalletselected:hover {
+    background-image: linear-gradient(to right, #6750fa14, rgba(86, 111, 252, 0.335));
+}
+
+
+
+.itemrowmenuwalletselected p {
+    margin-top: 3px !important;
+}
+
+.itemrowmenuwalletselected img {
+    width: 15px;
+}
+
+.sidbar-con {
+    width: 94px !important;
+    height: 1266px;
+    border: #36406396 1px solid;
+    background: linear-gradient(to top, #242538, #242438, #242438, #252337, #252237, #242237, #242138, #232138, #202239, #1d2239, #1a233a, #16233a) !important;
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.sidcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 9px;
+    box-shadow: 0px -1px .5px .5px #5b6080;
+    border: 1px solid #6650fa1c;
+    transition: .3s;
+    margin: 9px 0 !important;
+}
+
+.sidcon img {
+    width: 18px;
+    height: 18px;
+}
+
+.sidicoend1,
+.sidicoend2 {
+    width: 40px;
+    height: 40px;
+}
+
+.sidcon:hover {
+    background: #556ffc;
+}
+
+.rowhover:hover {
+    background: linear-gradient(360deg, #1a1f3c50 0%, rgba(35, 39, 64, 0) 0%, #2e4a74 89.64%);
+}
+
+
+
+.listlanguage {
+    overflow: hidden !important;
+    text-align: right;
+    width: 100%;
+    height: 100px !important;
+    list-style-type: none;
+    padding: 11px;
+    padding-bottom: 0px;
+    transition: .2s;
+    opacity: 1;
+    opacity: 1;
+}
+.listlanguageclose {
+    height: 0px !important;
+    transition: .2s;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.listlanguage li {
+    text-align: right;
+    background-color: #ffffff0f;
+    width: 100%;
+    margin: 7px 0;
+    padding: 7px;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.listlanguage li:hover {
+    background-color: #ffffff25;
+}
+
+.rowlanguage {
+    height: auto !important;
+    padding: 10px;
+}
+
+.sidbar-con {
+    width: 94px;
+    height: 1266px;
+    background: url(../Image/bgside.png);
+    border-radius: 24px;
+    border: #36406396 1px solid;
+    position: absolute;
+    z-index: 199;
+}
+
+.sidbar-con .firstcon {
+    background-image: linear-gradient(#355274, #aa4972);
+    border: none;
+}
+
+
+.sidbar-con img {
+    width: 21px;
+    height: 21px;
+
+}
+
+.sidcon {
+    background-color: #1f212e;
+    width: 55px;
+    height: 54px;
+    border-radius: 17px;
+    box-shadow: 0px -1px 1px 1px #5b6080;
+    border: 2px solid #6650fa1c;
+    cursor: pointer;
+}
+.sidcon-chat {
+    background: #556ffc;
+}
+
+@media (max-width: 900px) {
+    .conendfooter2 {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .CloseWalletmenuMobile , .CloseWalletmenuMobile >* {
+        opacity: 0 !important;
+    }
+    
+    .OpenWalletmenuMobile , .OpenWalletmenuMobile >* {
+        opacity: 1 !important;
+    }
+    
+    .wallet-menu {
+        background-color: #242438;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        position: fixed;
+        box-sizing: border-box;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: contain;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        border-radius: 0 !important;
+
+    }
+
+
+}
+
+@media (max-width: 992px) {
+    .sidbar-con {
+        display: none !important;
+    }
+
+}
+
+.CloseWalletmenuMobile {
+    transition: .3s ease-out;
+    opacity: 0;
+    right: -120% !important;
+}
+
+.OpenWalletmenuMobile {
+    transition: .2s ease-out;
+    opacity: 1;
+    width: 100% !important;
+    right: 0% !important;
+}
+
+
+
+@media (min-width: 992px) {
+    .CloseWalletmenuMobile {
+        right: 0% !important;
+    }
+
+    .wallet-menu {
+        background: linear-gradient(to top, #242538, #242438, #242438, #252337, #252237, #242237, #242138, #232138, #202239, #1d2239, #1a233a, #16233a) !important;
+        border-radius: 16px;
+        position: relative;
+        inset: 0;
+        transition: .2s ease !important;
+    }
+
+    .wallet-menuWidthClose {
+        height: 1264px;
+        width: 94px !important;
+        opacity: 0;
+        transition: .2s ease !important;
+    }
+
+    .wallet-menuWidthOpen {
+        height: max-content !important;
+        width: 303px !important;
+        opacity: 1;
+        transition: .2s ease !important;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .conimgfooter {
+        grid-template-columns: auto auto;
+    }
+
+    .contxtfooter {
+        grid-template-columns: auto auto auto;
+        justify-content: center !important;
+    }
+
+    .conendfooter2 {
+        grid-template-columns: auto !important;
+    }
+}

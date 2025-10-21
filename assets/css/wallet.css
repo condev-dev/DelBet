@@ -1,0 +1,476 @@
+
+.titlewallet h5 {
+    font-weight: 900;
+    color: #edbd31;
+
+}
+
+.circleuser {
+    width: 50px;
+    height: 50px;
+    background: rgba(38, 71, 111, 1);
+    border-radius: 200px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.rowmenuwallet {
+    background: linear-gradient(360deg, #1A1F3C 0%, rgba(35, 39, 64, 0) 0%, #334766 89.64%);
+    border-radius: 14px;
+    cursor: pointer;
+    opacity: .9;
+    width: 262px;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.rowmenuwalletopen {
+    margin: 5px 0px;
+    height: 230px !important;
+    box-shadow: inset -1px -1px 0px 0px #cbcad129;
+    border: 1px solid #cbcad11a;
+}
+
+.rowmenuwalletclose {
+    margin: 0px !important;
+    height: 0px !important;
+    box-shadow: none;
+    border: none;
+    padding: 0px !important;
+}
+
+.rowmenuwallet h6 {
+    margin: 0px;
+    margin-right: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    border-right: 1px solid white;
+}
+
+.rowmenuwallet img {
+    height: 20px;
+}
+
+
+.rowmenuwalletselected {
+    width: 262px;
+    height: 232px;
+}
+
+.rowmenuwalletend h6 {
+    border: none;
+}
+
+.downanglewallet {
+    padding: 5px 7px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #5367EB 0%, #674CF9 100%);
+}
+
+.rowmenuwalletfirst {
+    background: url(../Image/bg-first-menu-item.png);
+}
+
+.rowmenuwalletfirst h6 {
+    margin: 0px;
+    padding-right: 0px;
+    font-weight: 500;
+    font-size: 15px;
+    border-right: none;
+    margin: 0 5px;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.rowmenuwalletfirst h6:nth-child(1) {
+    margin-right: 10px;
+}
+
+.rowmenuwalletfirst h6:nth-child(2),
+.up-show {
+    color: rgba(90, 255, 179, 1);
+}
+
+.confirstcolummenu {
+    margin-right: 10px;
+    border-right: 1px solid white;
+}
+
+.conchat {
+    background: url(../Image/bg-chat.png);
+    background-size: 100% 100%;
+    transition: .5s;
+    overflow: hidden;
+
+}
+
+.conchatopen {
+    height: 310px !important;
+    padding: 13px 21px !important;
+}
+
+.conchatclose {
+    height: 0px !important;
+    padding: 0px !important;
+}
+
+.contxtchat h6 {
+    padding: 0px 10px;
+    margin: 0px;
+    border: none;
+    text-align: left;
+    direction: ltr;
+}
+
+.contxtchat h6:nth-child(2),
+.contxtchat h6:nth-child(3) {
+    background: linear-gradient(180deg, #5473FD 0%, #6B45FA 100%);
+    padding: 10px 16px 6px 9px;
+    border-radius: 0px 60px 60px 48px;
+    margin: 4px 0px;
+    font-size: 11px;
+    border-right: none;
+}
+
+.contxtchat h6:nth-child(2) {
+    margin-top: 10px;
+}
+
+.contxtchat h6:nth-child(1) {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.contxtchat2 h6:nth-child(2),
+.contxtchat2 h6:nth-child(3) {
+    background: linear-gradient(180deg, #B53B66 0%, #841242 100%);
+}
+
+.cirlce1 {
+    width: 5px;
+    height: 5px;
+    background-color: #B53B66;
+    border-radius: 200px;
+    padding: 0%;
+    margin: 0;
+}
+
+.cirlce2 {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #B53B66;
+    border-radius: 200px;
+    padding: 0%;
+    margin: 0;
+}
+
+.cirlce1-first {
+    background-color: #5473FD;
+}
+
+.cirlce2-first {
+    border: 2px solid #5473FD;
+}
+
+.downchat {
+    font-size: 13px;
+}
+
+.downchat p {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 2px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.downchat i {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.titlewalet {
+    font-weight: 900;
+    color: #edbd31;
+}
+
+.conmenuwallet {
+    background-image: linear-gradient(to left bottom, #6c2b44, #5f2945, #512844, #442641, #37243d, #32243d, #2d233c, #28233b, #292540, #292744, #292949, #292b4e);
+    height: 352.36px;
+    BORDER: 1px solid #ffffff24;
+    border-radius: 14px;
+    opacity: .8;
+    box-shadow: inset .1px .5px 2px 0px #ffffff69;
+    border-bottom: none;
+}
+
+.conmenuwallet p {
+    margin: 0;
+    padding: 0;
+    margin-right: 14px;
+    font-size: 16px;
+}
+
+.conmenuwallet img {
+    width: 18PX;
+}
+
+.conconwallet {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.selecteditem {
+    background-color: #ffffff0f;
+    width: 100%;
+}
+
+.conleft {
+    margin-right: 25px;
+    width: 752.23px;
+    border-radius: 15.84px;
+    background: rgb(98, 90, 155);
+    background: linear-gradient(225deg, rgba(98, 90, 155, 1) 2%, rgba(67, 61, 103, 1) 11%, rgba(48, 43, 71, 1) 25%, rgba(35, 32, 51, 1) 79%, rgba(40, 41, 67, 0.9220938375350141) 93%, rgba(46, 51, 86, 1) 98%);
+    box-shadow: inset .5px .5px 2px 0px #ffffff69;
+}
+
+.conleftfirst {
+    height: 85px;
+    border-radius: 9px;
+    background-color: #ffffff0a;
+}
+
+.conleftfirst h6 {
+    margin: 0 10px;
+}
+
+.conleftfirst h6:nth-child(2),
+h6:nth-child(3) {
+    border-right: 1px solid white;
+    padding-right: 15px;
+}
+
+.conleftfirsth6two h6 {
+    border: none !important;
+    margin-right: 15px;
+}
+
+.conleftfirsth6two h6:nth-child(1) {
+    color: rgba(90, 255, 179, 1);
+}
+
+.searchbox {
+    background-color: #ffffff0f;
+    border-radius: 10px;
+    padding-right: 47px;
+    width: 256px;
+    margin-right: -44px;
+    margin-left: 0px;
+}
+
+.monyWithdrawal {
+    background-color: #ffffff0f;
+    border-radius: 9px;
+}
+
+.monyWithdrawal h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    margin-top: 3px;
+}
+
+.monyWithdrawal small {
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+.monyWithdrawal h5 {
+    margin: 0;
+    padding: 0;
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(90, 255, 179, 1);
+}
+
+.btntitle {
+    border: 1px solid #ffffff24;
+    width: 96px;
+    background-color: #ffffff0f;
+}
+
+.concash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inventory {
+    width: 87px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    background: none;
+    border: none;
+    direction: ltr;
+    text-align: center;
+    color: rgba(90, 255, 179, 1);
+}
+
+
+
+.mony-right {
+    width: 120px;
+}
+
+
+@media (max-width: 1290px) {
+
+    .concash {
+        flex-direction: column;
+    }
+
+    .conmenuwallet {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .conleft {
+        margin-right: 0px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.btnsearchboxicon
+{
+    margin-top: -1px !important;
+}
+
+@media (max-width: 500px) {
+
+    .conswitch p 
+{
+    font-size: 12px !important;
+    margin-top: -7px !important;
+}
+
+    .monyWithdrawal h5 {
+        margin-right: 14px;
+        font-size: 11px;
+    }
+
+    .btntitle {
+        width: 44px !important;
+        font-size: 11px;
+        height: 26px;
+        padding: 5px !important;
+        padding-right: 12px !important;
+        font-weight: bold;
+    }
+
+    .monyWithdrawal img {
+        width: 25px;
+    }
+
+    .monyWithdrawal h6 {
+        font-size: 12px;
+    }
+
+    .monyWithdrawal small {
+        font-size: 7px;
+    }
+
+    .conleftfirst h6,
+    .inventory {
+        margin: 0px 10px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .inventory {
+        font-size: 10px;
+        font-weight: bold;
+        width: 47px;
+    }
+
+    .mony-right {
+        width: 80px;
+    }
+
+}
+
+
+
+
+
+
+/* Custom Css */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 16px;
+}
+
+
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff0a;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 13px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(17px);
+    -ms-transform: translateX(17px);
+    transform: translateX(17px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
