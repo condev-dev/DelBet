@@ -39,7 +39,7 @@ Built with **HTML, CSS & JavaScript**, crafted for **clarity, scalability, and u
 | 💰 Wallet 2 | ![Wallet](https://raw.githubusercontent.com/ConDevTp/DelBet/refs/heads/main/assets/Image/Wallet2-Demo.png) | Buy/transfer crypto with QR codes (design only) |
 | ⚡ Chat System | ![Chat](https://raw.githubusercontent.com/ConDevTp/DelBet/refs/heads/main/assets/Image/Chat-Demo.png) | Interactive chat interface |
 
-🔗 [Live Prototype](https://delbet.pages.dev/)
+🔗 [Live Prototype](https://bet.condev.ir)
 
 ---
 
