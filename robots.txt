@@ -1,0 +1,5 @@
+# robots.txt — https://bet.condev.ir/
+User-agent: *
+Allow: /
+
+Sitemap: https://bet.condev.ir/sitemap.xml

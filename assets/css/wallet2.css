@@ -42,7 +42,7 @@
     border-radius: 300px;
     border: 3px solid #5473FD;
     box-shadow: 3px 4px 10px #6750fa70;
-    background: url(../Image/);
+    background: linear-gradient(135deg, #5473FD 0%, #6750FA 100%);
 }
 
 .txtprofile {

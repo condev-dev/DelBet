@@ -69,7 +69,7 @@
 }
 
 .rowmenuwalletfirst {
-    background: url(../Image/bg-first-menu-item.png);
+    background: linear-gradient(135deg, #5367EB 0%, #674CF9 100%);
 }
 
 .rowmenuwalletfirst h6 {
@@ -98,7 +98,7 @@
 }
 
 .conchat {
-    background: url(../Image/bg-chat.png);
+    background: linear-gradient(180deg, #1c2145 0%, #171a38 100%);
     background-size: 100% 100%;
     transition: .5s;
     overflow: hidden;

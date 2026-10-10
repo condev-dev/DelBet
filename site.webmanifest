@@ -1,0 +1,22 @@
+{
+  "name": "دل بت — شرط بندی و کازینو آنلاین",
+  "short_name": "دل بت",
+  "lang": "fa-IR",
+  "dir": "rtl",
+  "start_url": "/",
+  "scope": "/",
+  "theme_color": "#151530",
+  "background_color": "#151530",
+  "icons": [
+    {
+      "src": "/assets/Image/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/Image/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

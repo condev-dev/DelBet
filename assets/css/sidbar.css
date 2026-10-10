@@ -191,7 +191,7 @@
 .sidbar-con {
     width: 94px;
     height: 1266px;
-    background: url(../Image/bgside.png);
+    background: linear-gradient(180deg, #1e2347 0%, #171a38 100%);
     border-radius: 24px;
     border: #36406396 1px solid;
     position: absolute;
